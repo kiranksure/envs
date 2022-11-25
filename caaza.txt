@@ -1,0 +1,31 @@
+# Dev credentials
+
+ATLAS_URI="mongodb+srv://kiranksuresh:UkcojPk7WzB1h9cO@cluster0.nffl4.mongodb.net/CaazaDev?retryWrites=true&w=majority"
+#ATLAS_URI="mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false"
+STRIPE_SECRET_KEY="sk_test_51KWzmvSFATQ2E9LA2K87JffaZnQC3t7MOoT0mmLz7LrpgLe66vdSUHlUhml0tlgJrO43XSbqUgU6swqwH1uJgrs900Um3ItYP3"
+STRIPE_PUBLISHABLE_KEY="pk_test_51KWzmvSFATQ2E9LARZ0amlTi65go3UF0RrbcyDMU0tULdGNBdzkKrfN3xK66wsYw81Ngng4CUdFthIMlvtPR0Tra00ITnC9gFC"
+#DOMAIN = "http://172.31.135.226"
+DOMAIN = "http://localhost"
+PORT = "5001"
+COOKIE_SECRET="6220dcfc0ffb844438762b28"
+SESSION_EXPIRY = 1728000
+
+#MYSQL SESSION STORE
+MYSQL_HOST = 'localhost'
+MYSQL_PORT = 3306
+MYSQL_USER = 'root'
+MYSQL_PASSWORD = 'root'
+MYSQL_DATABASE = 'caaza_session'
+
+#MAILER CREDENTIALS
+# HOST = 'smtp.ethereal.email'
+# SERVICE = ''
+# EMAIL = 'augustus.turner29@ethereal.email'
+# PASSWORD = 'sWZtCa5Hmb1GQyseGe'
+
+#MAILER CREDENTIALS
+HOST = 'smtp-relay.sendinblue.com'
+SERVICE = ''
+EMAIL = 'nithinisnow@gmail.com'
+PASSWORD = 'dMRxfLDN5cjHCIVp'
+EMAIL_PORT = 587
